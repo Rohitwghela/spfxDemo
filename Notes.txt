@@ -1,4 +1,4 @@
-https://github.com/Rohitwghela/spfxDemo
+https://github.com/Rohitwghela/spfxDemo  --  GitRepo
 
 https://github.com/Rohitwghela/spfxDemo.git   --   remote repository URL.
 
