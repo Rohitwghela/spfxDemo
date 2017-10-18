@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "9353cb79-1244-4b39-8e2e-b94b87ff3dd4",
+  "alias": "SpfxPnpCrudWebPart",
+  "componentType": "WebPart",
+  "version": "*", // The "*" signifies that the version should be taken from the package.json
+  "manifestVersion": 2,
+
+  /**
+   * This property should only be set to true if it is certain that the webpart does not
+   *  allow arbitrary scripts to be called
+   */
+  "safeWithCustomScriptDisabled": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "9353cb79-1244-4b39-8e2e-b94b87ff3dd4",
+    "group": { "default": "Under Development" },
+    "title": { "default": "spfx_pnp_crud" },
+    "description": { "default": "spfx_pnp_crud description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "spfx_pnp_crud"
+    }
+  }]
+}

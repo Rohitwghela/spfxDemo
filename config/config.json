@@ -1,0 +1,14 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/spfxPnpCrud/SpfxPnpCrudWebPart.js",
+      "manifest": "./src/webparts/spfxPnpCrud/SpfxPnpCrudWebPart.manifest.json",
+      "outputPath": "./dist/spfx-pnp-crud.bundle.js"
+    }
+  ],
+  "externals": {
+  },
+  "localizedResources": {
+    "spfxPnpCrudStrings": "webparts/spfxPnpCrud/loc/{locale}.js"
+  }
+}
